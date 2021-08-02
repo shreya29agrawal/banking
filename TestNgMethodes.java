@@ -25,6 +25,11 @@ public class TestNgMethodes {
 	@BeforeSuite // 1
 	  public void beforeSuite() {
 		System.out.println("before suite - set up system property for chrome");
+
+System.out.println("before suite - for chrome");
+
+
+
 	  }
 	
 	@BeforeTest //2
