@@ -24,6 +24,8 @@ public class ExplicitWaitExample {
 			  driver.get("http://the-internet.herokuapp.com/dynamic_loading/1");
 		
 			  driver.findElement(By.xpath("//button[text()='Start']")).click();
+			  
+			  System.out.println("explicit wait")
 			//  WebElement hello =  driver.findElement(By.xpath("//h4[text()='Hello World!']"));
 			//  myWait.until(ExpectedConditions.visibilityOf(hello));
 			
