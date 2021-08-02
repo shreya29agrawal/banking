@@ -55,6 +55,7 @@ System.out.println("before suite - for chrome");
   @AfterMethod //6
   public void afterMethod() {
 	  System.out.println("after the methode close web page");
+	  // after methode 6
   }
 
  
