@@ -41,7 +41,7 @@ System.out.println("before suite - for chrome");
 		 System.out.println("before class -launch chrome browser");
 	  }
 	 
-	 @BeforeMethod//4
+	 @BeforeMethod//4 methode
 	  public void beforeMethod() {
 		 System.out.println("befor methode enter url");
 	  }
